@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <BrowserRouter> 
       <Routes>
-        <Route path='/' element={<HomePage/>} />
+        <Route path='https://blogmaster.onrender.com/' element={<HomePage/>} />
         
-        <Route path='/add_post' element={<AddPost/>} />
+        <Route path='https://blogmaster.onrender.com/add_post' element={<AddPost/>} />
         
-        <Route path='/:id' element={<Postdetails/>}/>
+        <Route path='https://blogmaster.onrender.com/:id' element={<Postdetails/>}/>
         
       </Routes>
       </BrowserRouter>
