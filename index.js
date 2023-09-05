@@ -15,7 +15,7 @@ db = mongoose.connect("mongodb+srv://admin:lUAzFm6imJqvtNmI@cluster0.vwdddja.mon
     console.log("Db connceted suffuly")
 }).catch((err) => { console.log(err, err.message) });
 
-app.get("/posts", (req, res) => {
+app.get("/", (req, res) => {
     Post.find({}).then((result) => {
         res.send(result)
     }).catch((err) => {
