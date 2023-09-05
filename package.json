@@ -4,14 +4,14 @@
   "description": "��#\u0000 \u0000b\u0000l\u0000o\u0000g\u0000m\u0000a\u0000s\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix react-blog && npm run build --preifx react-blog",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install-server": "cd backend && npm install",
-    "start-server": "cd backend && node app.js",
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "install-server": "npm install",
+    "start-server": "node index.js",
+    "install-client": "npm install",
+    "build-client": "npm run build",
+    "start-client": "npm run start"
   },
   "keywords": [],
   "author": "",
