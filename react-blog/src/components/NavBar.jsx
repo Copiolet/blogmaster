@@ -11,8 +11,8 @@ const NavBar = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Link to="https://blogmaster.onrender.com/"><Navbar.Brand>BlogMaster</Navbar.Brand></Link>
-                    <Link to="https://blogmaster.onrender.com/" className='link'>Home</Link>
+                    <Link to="/"><Navbar.Brand>BlogMaster</Navbar.Brand></Link>
+                    <Link to="/" className='link'>Home</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
