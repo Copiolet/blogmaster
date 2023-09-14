@@ -23,13 +23,14 @@ app.get("/", (req, res) => {
     })
 })
 
-app.get("/add_post",(req,res) = {
-    res.send("post submitted successfully")
-})
+app.get("/add_post", (req, res) => {
+    res.send('post submitted successfully');
+});
 
-app.post("/add_post",(req,res) = {
-    res.send("post submitted successfully")
-})
+app.post("/add_post", (req, res) => {
+    res.send('post submitted successfully');
+});
+
 
 app.post("/api", (req, res) => {
     const title = req.body.title;
